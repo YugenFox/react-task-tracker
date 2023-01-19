@@ -1,4 +1,4 @@
-import { FaTimes } from "react-icons/fa";
+import { FaBacon } from "react-icons/fa";
 
 const Task = ({ task, onDelete, onToggle }) => {
   return (
@@ -8,7 +8,7 @@ const Task = ({ task, onDelete, onToggle }) => {
     >
       <h3>
         {task.text}{" "}
-        <FaTimes
+        <FaBacon
           style={{ color: "red", curser: "pointer" }}
           onClick={() => onDelete(task.id)}
         />
