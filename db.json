@@ -13,8 +13,8 @@
       "reminder": true
     },
     {
-      "text": "dfs",
-      "day": "dd",
+      "text": "New Day",
+      "day": "Next Day",
       "reminder": true,
       "id": 3
     }
